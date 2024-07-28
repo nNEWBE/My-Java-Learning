@@ -1,5 +1,5 @@
 {
-  "java.project.sourcePaths": ["src", "tasks"],
+  "java.project.sourcePaths": ["assignment tasks", "basic src", "oop concepts"],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"]
 }
