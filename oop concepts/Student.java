@@ -3,6 +3,18 @@ public class Student {
     int roll, batch;
     boolean isStudent;
 
+    Student()
+    {
+        System.out.println("I am a constructor");
+    }
+
+    Student(String n, int r, int b, boolean st) {  //! Constructor  
+        name = n;
+        roll = r;
+        batch = b;
+        isStudent = st;
+    }
+
     void setInformation(String n, int r, int b, boolean st) {
         name = n;
         roll = r;
