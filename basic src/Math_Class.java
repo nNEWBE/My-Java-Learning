@@ -15,6 +15,8 @@ public class Math_Class {
         System.out.println("Absolute number : " + Math.abs(second));
         System.out.println("Floor number : " + Math.floor(first));
         System.out.println("Celi number : " + Math.ceil(first));
+        System.out.println("Log number : " + Math.log(second));
+        System.out.println("Exponential number : " + Math.exp(second));
         System.out.println("Signum number : " + Math.signum(first));
         System.out.println("Power " + second + " of number " + first + " is : " + Math.pow(first, second));
         System.out.println("Square root of number " + second + " is : " + Math.sqrt(second));
